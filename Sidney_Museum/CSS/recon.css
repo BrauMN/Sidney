@@ -1,0 +1,43 @@
+
+
+body {
+    background-image: url(../fondos/fondo_recontra.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h2{
+    font-size: 30px;
+}
+
+label{
+    margin-left: 1%;
+}
+
+input{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.col-md-6{
+    margin-left: 30%;
+}
+.form-group{
+    margin-left: 5%;
+}
+
+a{
+    margin-top: 30%;
+    font-size: 40px;
+    color: black;
+}
+
+.col-lg-12{
+    margin-top: 10%;
+}

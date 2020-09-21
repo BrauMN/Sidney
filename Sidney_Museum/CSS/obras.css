@@ -1,0 +1,167 @@
+body {
+    background-image: url(../fondos/fondo_completo.png);   
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+a{color:whitesmoke;  
+  }
+
+br{color: whitesmoke;}
+
+button[type="submit"]:hover {
+  background-color: #00b8eb;
+  
+}
+
+
+*{
+  margin: 0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.titulo{
+  text-align: center;
+  margin-left: 40%;
+  font-size: 30px;
+  color: black;
+  font-style: initial;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+/*menu*/
+
+.navegacion{
+  width: 1000px;
+  margin: 0px auto;
+  background: #fff;
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.menu > li{
+  /*position: relative;*/
+  display: inline-block;
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  transition: all .3s;
+  color: #ce7d35
+}
+
+/*submenu*/
+
+.submenu{
+  position: absolute;
+  background: #333333;
+  width: 10%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-decoration: none;
+}
+
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.menu li[name="logout"]{
+  margin-left: 11%;
+}
+
+
+
+table{
+    width: 100%;
+}
+
+.obras{
+  overflow: auto;
+  width: 70%;
+  margin-left: 15%;
+  background-color: none;
+  height: 560px;
+}
+
+.info{
+    background: black;
+    color: white;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition:all .5s ease-in-out;
+    height: 365px;
+    margin-top: -367px;
+    
+}
+
+.info:hover{
+    opacity: 0.8;
+}
+
+.img-side{
+
+    width: 100%;
+    height: 360px;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+
+
+}
+
+table tr:hover {background-color: #ddd;}
+
+.name_obra{
+    background: black;
+    color: white;
+
+    padding: 8px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.name_obra:hover {background-color: #ddd;}
+
+.up_border{
+
+    font-size: 28px;
+   
+}
+
+.norepeat{
+  border: 10px solid black;
+}
+
+
+.img_img{
+    width: 100%;
+    height: 362px;
+
+}
+
+.td_autor{
+  font-size: 20px;
+}

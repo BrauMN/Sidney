@@ -1,0 +1,155 @@
+body {
+    background-image: url(../fondos/pagina_prin.png);   
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+}
+
+a{color:whitesmoke;  
+  }
+
+br{color: whitesmoke;}
+
+button[type="submit"]:hover {
+  background-color: #00b8eb;
+  
+}
+
+
+*{
+  margin: 0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+strong{
+  text-align: center;
+  margin-left: 64%;
+  font-size: 27px;
+  color: black;
+  font-style: initial;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+/*menu*/
+
+.navegacion{
+  width: 1000px;
+  margin: 0px auto;
+  background: #fff;
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.menu > li{
+  /*position: relative;*/
+  display: inline-block;
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  transition: all .3s;
+  color: #ce7d35
+}
+
+/*submenu*/
+
+.submenu{
+  position: absolute;
+  background: #333333;
+  width: 10%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-decoration: none;
+}
+
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.menu li[name="logout"]{
+  margin-left: 11%;
+}
+
+
+img{
+  margin-left: 30%;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: none;
+}
+
+table td, table th, table tr {
+  border: 1px solid black;
+  padding: 8px;
+  margin-left: 57%;
+}
+
+table tr:nth-child(even){background-color: none;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.obras{
+  overflow: auto;
+  width: 45%;
+  margin-left: 48%;
+  background-color: none;
+  height: 490px;
+}
+
+.incentivos{
+  overflow: auto;
+  width: 45%;
+  margin-left: 48%;
+  background-color: none;
+  height: 490px;
+}
+
+.rallys{
+  overflow: auto;
+  width: 45%;
+  margin-left: 48%;
+  background-color: none;
+  height: 230px;
+}
+
+.preguntas{
+  overflow: auto;
+  width: 45%;
+  margin-left: 48%;
+  background-color: none;
+  height: 230px;
+}

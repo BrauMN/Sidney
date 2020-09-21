@@ -1,0 +1,253 @@
+body {
+    background-image: url(../fondos/fondo_obras.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Pathway Gothic One', sans-serif;
+  }
+  
+  
+  
+  *{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  strong{
+    text-align: left;
+    margin-left: 4%;
+    font-size: 27px;
+    color: black;
+    font-style: initial;
+    margin-top: 50%;
+  }
+  
+  /*menu*/
+  
+  .navegacion{
+    width: 1000px;
+    margin: 0px auto;
+    background: #fff;
+  }
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    /*position: relative;*/
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .menu li a:hover{
+    transition: all .3s;
+    color: #ce7d35
+  }
+  
+  /*submenu*/
+  
+  .submenu{
+    position: absolute;
+    background: #333333;
+    width: 10%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  
+  }
+  
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  
+  }
+  
+  .menu li[name="logout"]{
+    margin-left: 11%;
+  }
+  
+  /*General*/
+  
+  .preguntas{
+      position: absolute; 
+      top: 31%; 
+      left: 67%; 
+      margin-left: -225px; 
+      margin-top: -160px; 
+      width: 600px;
+      height: 515px;
+      background: none;
+      border-radius: 50px;
+      
+  }
+  
+  input[type=text], select {
+      width: 95%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(197, 193, 193);
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin-left: 2%;
+  }
+  
+  
+  label{text-align: left; 
+  margin-left: 2%;
+  }
+  h1{text-align: center;}
+  h2{text-align: center;}
+  
+  
+  
+  div p{
+      font-size: 15px;
+      margin-left: 10%;
+  }
+  
+  input[type=number]::-webkit-outer-spin-button,
+  
+  input[type=number]::-webkit-inner-spin-button {
+  
+      -webkit-appearance: none;
+  
+      margin: 0;
+  
+  }
+  
+   
+  
+  input[type=number] {
+  
+      -moz-appearance:textfield;
+  
+  }
+  
+  input[type=number], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+  }
+  
+  input[name="id"]
+  {
+    width: 10%;
+  }
+  
+  input[name="time"]
+  {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+  }
+  
+  input[name="abajo"]
+  {
+    height: 30px;
+    width: 30px;
+    margin-left: 50%;
+  }
+  
+  .preguntas{
+    overflow: auto;
+    top: 34%;
+  }
+  
+  
+  .rally{
+    margin-top: 39%;
+    margin-left: 50%;
+  }
+  
+  button[name="abajo"]
+  {
+    width: 100px;
+    height: 30px;
+  }
+  
+  .title{
+    background: none;
+  }
+  
+  
+  input[type=submit]
+  {
+    height: 30px;
+    width: 130px;
+    margin-left: 45%;
+  }
+  
+  button{
+    height: 30px;
+    width: 30px;
+    margin-left: 50%;
+  }
+
+  button[name="insertar"]
+  {
+      margin-top: none;
+      margin-left: 40%;
+      width: 100px;
+      height: 30px;
+  }
+
+  button[name="insertar"]:hover
+  {
+      color: gray;
+  }
+
+  input[type=button]{
+      margin-left: 50%;
+      width: 30px;
+      height: 30px;
+  }
+
+  .osi{
+      overflow: auto;
+  }
+
+  input[type=radio]{
+    margin-left: 37%;
+  }
+
+  button[name="agregar_preguntas"]{
+    margin-top: none;
+      margin-left: 40%;
+      width: 100px;
+      height: 38px;
+  }
+
+
+  button[name="agregar_preguntas"]:hover{
+    color: gray;
+  }

@@ -1,0 +1,115 @@
+body {
+    background-image: url(../fondos/fondo_crear_us.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    
+}
+
+div{
+    position: absolute; 
+    top: 23%; 
+    left: 48%; 
+    margin-left: -250px; 
+    margin-top: -80px; 
+    width: 575px;
+    height: 620px;
+    background: none;
+    border-radius: 50px;
+    
+}
+
+input[name=mail]{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+input[name=phone]{
+    width: 28%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+input[name=direction]{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+input[name=firstname], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+input[name=f_last_name], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+input[name=m_last_name], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+input[type=password], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+label{text-align: left; 
+margin-left: 2%;
+}
+a{text-align: center;
+    margin-left: 29%;
+    font-size: 40px;
+    color: black;
+
+}
+h2{text-align: center;}
+
+div button{margin-left: 39%;
+    cursor: pointer;
+}
+
+
+p{margin-left: 27%;}
